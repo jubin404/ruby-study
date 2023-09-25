@@ -19,15 +19,15 @@ end
 
 #if else
 if gender == 'm'
-	gender = ' male'
+	gender = 'male'
 elsif gender == 'f'
-	gender = ' female'
+	gender = 'female'
 else
 	gender = ''
 end
 
 #unless
-puts "#{name} is a #{age} year old#{gender unless gender.empty?} #{$category}"
+puts "#{name} is a #{age} year old #{gender unless gender.empty?} #{$category}".squeeze(' ')
 
 #ternary
 puts "#{name} is a #{age < 18 ? 'minor' : 'major'}"
