@@ -1,2 +1,1 @@
-
-puts "Welcome to RoR"
+puts 'Welcome to RoR'
