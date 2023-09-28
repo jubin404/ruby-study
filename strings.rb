@@ -29,3 +29,6 @@ puts reversed_name.index('jose')
 
 #length
 puts name.length
+
+#interpolation
+puts "My name is #{name}. My age is #{age}"
